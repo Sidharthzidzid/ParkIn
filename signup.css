@@ -1,0 +1,317 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+    color:#ffffff;
+}
+::placeholder{
+  color: #ffffff;
+  font-size: large;
+}
+input {
+  color: white;
+  background-color: black;
+}
+::-ms-reveal {
+  filter: invert(100%);
+}
+body {
+    background: #000a25;}
+.main-container {
+  position: relative;
+  width: 1858px;
+  height: 4835px;
+  margin: 0 auto;
+  background: #000a25;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  width: 800px;
+  height: 780px;
+  top: 91px;
+  left: 850px;
+  background: #d9d9d9;
+  z-index: 1;
+  border-radius: 40px;
+}
+.rectangle-1 {
+  position: relative;
+  width: 384px;
+  height: 87px;
+  margin: 72px 0 0 249px;
+  background: #d9d9d9;
+  z-index: 3;
+  
+}
+.sign-up-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 63px;
+  top: 0;
+  left: 50px;
+  color: #010b25;
+  font-family: Inter, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.091px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.rectangle-3 {
+  position: relative;
+  width: 782px;
+  height: 65px;
+  margin: 211px 0 0 10px;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 10;
+  background:#010b25 ;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.password-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 12px;
+  left: 28px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.rectangle-button {
+  position: relative;
+  width: 782px;
+  left: -50px;
+  height: 65px;
+  margin: 31px 0 0 57px;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 12;
+  background:#010b25 ;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.confirm-password-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 13px;
+  left: 28px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.accept-terms {
+  display: block;
+  position: relative;
+  height: 29px;
+  margin: 25px 0 0 197px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangle-button-4 {
+  position: relative;
+  width: 299px;
+  height: 62px;
+  margin: 33px 0 0 291px;
+  cursor: pointer;
+  background: #010b25;
+  border: none;
+  z-index: 16;
+  border-radius: 40px;
+}
+.sign-up-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 11px;
+  left: 97px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 17;
+}
+.login-here {
+  display: block;
+  position: relative;
+  height: 29px;
+  margin: 31px 0 0 215px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+.rectangle-6 {
+  position: absolute;
+  width: 383px;
+  height: 64px;
+  top: 187px;
+  left: 10px;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 14;
+
+}
+.first-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 16px;
+  left: 28px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+  
+}
+
+.rectangle-button-7 {
+  position: absolute;
+  width: 383px;
+  height: 64px;
+  top: 188px;
+  left: 410px;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: cover;
+  border: none;
+  z-index: 6;
+  background:#010b25 ;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.last-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 31px;
+  top: 15px;
+  left: 29px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.045px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.rectangle-8 {
+  position: absolute;
+  width: 329px;
+  height: 65px;
+  top: 185px;
+  left:7px;
+  background:#010b25 ;
+  cursor: pointer;
+  border-radius: 40px;
+  z-index: 5;
+}
+.rectangle-button-9 {
+  position: absolute;
+  width: 782px;
+  height: 65px;
+  top: 277px;
+  left: 10px;
+  cursor: pointer;
+  background: #010b25;
+  border: none;
+  z-index: 8;
+  border-radius: 40px;
+}
+.email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 15px;
+  left: 28px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.pic-2 {
+  position: absolute;
+  width: 579px;
+  height: 667px;
+  top: 99px;
+  left: 200px;
+  background: url(signup.png)
+    no-repeat center;
+  background-size: cover;
+}
