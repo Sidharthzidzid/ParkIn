@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="rectangle">
+        <span class="login-your-account">LOGIN YOUR ACCOUNT</span>
+        <form action="login.php" method="post">
+          <span class="email"><label for="email">Email_Id</label></span
+          ><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ParkIN@gmail.com"
+            required
+          /><br />
+          <span class="password"><label for="password">Password</label></span
+          ><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="password123@ParkIn"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+            required
+          /><br /><br />
+          <input type="submit" value="LogIn" />
+        </form>
+        <p1><a href="signup.html">Create account</a></p1>
+        <p2><a href="reset.php">Forgot password ?</a></p2>
+      </div>
+      <div class="rectangle-4">
+        <span class="welcome-back">WELCOME BACK</span>
+      </div>
+      <div class="removebg-preview"></div>
+    </div>
+  </body>
+</html>
